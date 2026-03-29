@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"D:\\\\InkSpacw=e\\\\bin\\\\inkscape.exe\" --help 2>&1 | head -100)",
+      "Bash(\"D:\\\\InkSpacw=e\\\\bin\\\\inkscape.exe\" --action-list 2>&1 | head -200)",
+      "Bash(\"D:\\\\InkSpacw=e\\\\bin\\\\inkscape.exe\" --action-list 2>&1 | grep -i layer)",
+      "WebSearch",
+      "Bash(\"D:\\\\InkSpacw=e\\\\bin\\\\inkscape.exe\" --action-list 2>&1)",
+      "Bash(powershell -Command \"Invoke-WebRequest -Uri 'https://github.com/tesseract-ocr/tessdata/raw/main/chi_sim.traineddata' -OutFile 'chi_sim.traineddata'\")",
+      "Bash(python:*)",
+      "Bash(cd:*)",
+      "Skill(claude-hud:setup)",
+      "Bash(pip install:*)"
+    ]
+  }
+}
